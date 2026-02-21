@@ -3,6 +3,9 @@
 .idea/
 .vscode/
 
+# Repo policy
+agent.md
+
 # Python
 __pycache__/
 *.py[cod]
