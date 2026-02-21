@@ -1,0 +1,40 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+bleu/
+
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*token*.json
+*secret*.json
+client_secrets*.json
+*.pem
+*.key
+*.p12
+
+# Build and runtime outputs
+outputs/
+logs/
+runs_cache/
+runs_ablation/
+runs_ablation_*/
+daily_papers_*TEMP*.mp4
+
+# Large local model weights
+models/publaynet/model_final.pth

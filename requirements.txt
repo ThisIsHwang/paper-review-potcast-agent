@@ -1,0 +1,8 @@
+requests
+openai>=1.30.0
+PyMuPDF
+moviepy
+google-api-python-client
+google-auth-oauthlib
+importlib-metadata; python_version < "3.10"
+sacrebleu>=2.5.1
