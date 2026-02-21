@@ -26,6 +26,7 @@ The repository is built for daily research-content production with minimal manua
 - [Troubleshooting](#troubleshooting)
 - [Publishing Checklist](#publishing-checklist)
 - [Known Limitations](#known-limitations)
+- [License](#license)
 
 ## Overview
 
@@ -344,7 +345,7 @@ Before pushing to GitHub:
   - `outputs/`
   - local MP4/PNG/MP3 files
 - Add a proper `.gitignore` if not present.
-- Add a `LICENSE` file before public release.
+- Keep `LICENSE` and `NOTICE` files when redistributing.
 
 ## Known Limitations
 
@@ -352,3 +353,13 @@ Before pushing to GitHub:
 - LLM output quality depends heavily on model behavior and prompt adherence.
 - TTS is generated slide-by-slide; long runs can be costly/time-consuming.
 - Figure extraction quality depends on external model/deps and PDF layout quality.
+
+## License
+
+This project is licensed under the Apache License 2.0. See `LICENSE`.
+
+If you redistribute this project or derivative works, you should:
+
+- include the `LICENSE` file,
+- retain the `NOTICE` file,
+- keep attribution to the original project/author in source or documentation.
