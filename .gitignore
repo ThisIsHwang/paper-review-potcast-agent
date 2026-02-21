@@ -31,9 +31,6 @@ client_secrets*.json
 # Build and runtime outputs
 outputs/
 logs/
-runs_cache/
-runs_ablation/
-runs_ablation_*/
 daily_papers_*TEMP*.mp4
 
 # Large local model weights
