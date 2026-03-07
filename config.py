@@ -51,7 +51,7 @@ class Config:
     hf_base_url: str = os.getenv("HF_BASE_URL", "https://huggingface.co")
     top_k: int = _get_int("TOP_K", 10)
     openai_api_key: Optional[str] = os.getenv("OPENAI_API_KEY")
-    openai_llm_model: str = os.getenv("OPENAI_LLM_MODEL", "gpt-4o-mini")
+    openai_llm_model: str = os.getenv("OPENAI_LLM_MODEL", "gpt-5.3")
     openai_tts_model: str = os.getenv("OPENAI_TTS_MODEL", "gpt-4o-mini-tts")
     openai_tts_voice: str = os.getenv("OPENAI_TTS_VOICE", "alloy")
     tts_style_instruction: Optional[str] = os.getenv("TTS_STYLE_INSTRUCTION")

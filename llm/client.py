@@ -38,7 +38,6 @@ class LLMClient:
                         {"role": "user", "content": user_prompt},
                     ],
                     response_format={"type": "json_object"},
-                    temperature=0.2,
                 )
                 content = resp.choices[0].message.content
                 if not content:

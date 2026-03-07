@@ -209,7 +209,7 @@ python main.py --date 2026-02-21 --skip-video
 | `HF_BASE_URL` | `https://huggingface.co` | Hugging Face base URL. |
 | `TOP_K` | `10` | Default top-K paper count. |
 | `OPENAI_API_KEY` | - | Required for LLM/TTS steps. |
-| `OPENAI_LLM_MODEL` | `gpt-4o-mini` | Model used for summarization and translation. |
+| `OPENAI_LLM_MODEL` | `gpt-5.3` | Model used for summarization and translation. |
 | `OPENAI_TTS_MODEL` | `gpt-4o-mini-tts` | TTS model. |
 | `OPENAI_TTS_VOICE` | `alloy` | Voice preset. |
 | `TTS_STYLE_INSTRUCTION` | empty | Style hint string (stored, currently not injected into spoken text). |
